@@ -128,7 +128,7 @@ watch(filters, fetchItems)
 
 <template>
   <div class="flex justify-between items-center">
-    <h2 class="text-3xl font-bold mb-8">Все кроссовки</h2>
+    <h2 class="text-3xl font-bold mb-8">Все игры</h2>
     <div class="flex gap-4">
       <!-- Выпадающий список сортировки -->
       <select

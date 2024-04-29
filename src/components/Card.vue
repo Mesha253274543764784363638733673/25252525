@@ -41,7 +41,7 @@ defineProps({
         <!-- Текст "Цена" -->
         <span class="text-slate-400">Цена:</span>
         <!-- Значение цены товара -->
-        <b>{{ price }} тенге:</b>
+        <b>{{ price }} ₸:</b>
       </div>
       <!-- Иконка "Добавить в корзину" -->
       <img @click="onclickAdd" :src="!isAdded ? '/plus.svg' : '/checked.svg'" alt="Plus" />

@@ -13,13 +13,13 @@ const props = defineProps({
 
 const { cart } = inject('cart')
 
-const isCreatedOrder = ref(false)
+
 const orderId = ref(null)
 
 const btnDisable = computed(() =>
   props.isCreatedOrder.value ? true : props.totalPrice ? false : true
 )
-
+const isCreatedOrder = ref(false)
 const createOrder = async () => {
   try {
     isCreatedOrder.value = true
@@ -64,12 +64,12 @@ const createOrder = async () => {
         <div class="flex gap-2">
           <span>ИТОГО:</span>
           <div class="flex-1 border-b border-dashed"></div>
-          <b>{{ totalPrice }} тенге</b>
+          <b>{{ totalPrice }} ₸</b>
         </div>
         <div class="flex gap-2">
           <span>Налог 5%:</span>
           <div class="flex-1 border-b border-dashed"></div>
-          <b>{{ vatPrice }} тенге</b>
+          <b>{{ vatPrice }} ₸</b>
         </div>
 
         <button
