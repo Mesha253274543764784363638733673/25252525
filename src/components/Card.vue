@@ -31,7 +31,7 @@ defineProps({
       class="absolute top-8 left-8"
     />
     <!-- Изображение товара -->
-    <img :src="imageUrl" alt="sneakers" />
+    <img :src="imageUrl" alt="sneakers" class="w-40 h-40"/>
     <!-- Название товара -->
     <p class="mt-2">{{ title }}</p>
 
