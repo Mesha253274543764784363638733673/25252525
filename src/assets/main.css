@@ -3,5 +3,11 @@
 @tailwind utilities;
 
 body {
-    background-color: rgb(247 254 231);
+    background-color: rgb(12, 12, 12);
+    background-image:linear-gradient(
+    to bottom,
+    rgba(17, 0, 253, 0.5)
+    rgb(119, 117, 243 ,50%)
+    ) ;
+
   }

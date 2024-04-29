@@ -156,8 +156,8 @@ provide('cart', {
             class="border border-slate-200 rounded-md px-3 py-2 outline-none"
           >
             <option value="name">По названию</option>
-            <option value="price">По цене(возрастанию)</option>
-            <option value="-price">По цене(убыванию)</option>
+            <option value="price">По возрастанию</option>
+            <option value="-price">По убыванию</option>
           </select>
 
           <!-- Поле ввода для поиска -->

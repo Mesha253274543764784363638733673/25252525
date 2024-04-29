@@ -7,10 +7,10 @@ const emit = defineEmits(['toggleDrawer']) // Определяем функци�
     <!-- Верхняя часть страницы с рамкой и отступами -->
     <div class="flex items-center gap-4">
       <!-- Контейнер с логотипом и текстом -->
-      <img src="/logo.png" alt="image" class="w-10" />
+      <img src="/logo.png" alt="image" class="w-40" />
       <!-- Логотип магазина -->
       <div>
-        <h2 class="text-xl font-bold uppercase">PORTAL LIDER</h2>
+        <h2 class="text-xl font-bold uppercase"></h2>
         <!-- Название магазина -->
         <p class="text-slate-400">Магазин игр</p>
         <!-- Описание магазина -->
@@ -32,7 +32,7 @@ const emit = defineEmits(['toggleDrawer']) // Определяем функци�
         <!-- Элемент "Закладки" -->
         <img src="/heart.svg" alt="" />
         <!-- Иконка сердца -->
-        <span>Закладки</span>
+        <span>Лайкнутые</span>
         <!-- Текст элемента -->
       </li>
       <li class="flex items-center cursor-pointer gap-3 text-gray-500 hover:text-black">
@@ -40,6 +40,13 @@ const emit = defineEmits(['toggleDrawer']) // Определяем функци�
         <img src="/profile.svg" alt="" />
         <!-- Иконка профиля -->
         <span>Профиль</span>
+        <!-- Текст элемента -->
+      </li>
+      <li class="flex items-center cursor-pointer gap-3 text-gray-500 hover:text-black">
+        <!-- Элемент "Профиль" -->
+        <img src="/balance.svg" alt="" class="w-7" />
+        <!-- Иконка профиля -->
+        <span>Баланс</span>
         <!-- Текст элемента -->
       </li>
     </ul>
